@@ -75,7 +75,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div>
-            <button className="btn">
+            <button className="btn me-4">
               <FontAwesomeIcon icon={faSearch} />
             </button>
           </div>
