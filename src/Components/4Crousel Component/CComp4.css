@@ -1,0 +1,26 @@
+.insight {
+  color: #d4ff27;
+}
+
+.card-title {
+  text-transform: uppercase;
+  color: white;
+}
+.cards-text {
+  color: #d4ff27;
+}
+
+.read-more {
+  position: relative;
+  text-decoration: underline;
+  text-decoration-color: #d4ff27;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  /* .card{
+        display: flex;
+        justify-content: center;
+    } */
+}

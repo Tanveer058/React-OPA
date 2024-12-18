@@ -1,0 +1,13 @@
+.not-found-page {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .not-found-page h2 {
+    color: #ff6347;
+  }
+  
+  .not-found-page p {
+    font-size: 1.2em;
+  }
+  

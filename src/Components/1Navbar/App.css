@@ -1,0 +1,78 @@
+body {
+  overflow-x: hidden;
+  /* padding-left: 20px; */
+  /* float: right; */
+}
+.mainNavbar {
+  background-color: rgba(0, 0, 0, 0.856);
+  /* padding-top: 0; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.navbar-toggler {
+  background-color: white;
+  width: fit-content;
+}
+/* .navbar .container-fluid {
+
+  padding-top: 12px;
+} */
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 18px;
+  /* margin-left: 2.5rem; */
+  margin: none;
+  padding: 8px 22px 0;
+  font-weight: 600;
+}
+.menu-item {
+  margin: none;
+  padding: 5px 22px;
+  background: #fff;
+}
+.menu-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.svg-inline--fa {
+  color: white;
+  font-size: 1.5rem;
+}
+.logoImg {
+  width: 50%;
+}
+
+/* .collapse {
+  transition: max-height 0.35s ease;
+  overflow: hidden;
+}
+
+.collapse.show {
+   max-height: 300px;
+} */
+
+
+
+@media only screen and (max-width: 768px) {
+body{
+  overflow-x: hidden;
+}
+.navbar1container{
+  margin: auto 0;
+  padding-top: 0;
+}
+.navbar-brand{
+  max-width: 250px;
+}
+
+}
+@media only screen and (max-width: 576px) {
+  .navbar1container{
+    padding-top: 0 !important;
+  }
+}

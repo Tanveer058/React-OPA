@@ -1,0 +1,29 @@
+.verticle-line {
+  width: 1px;
+  height: 180px;
+  background-color: white;
+  transform: scaleX(0.1); /* Scale it down to make it thinner */
+  transform-origin: left;
+  margin-top: 5px;
+}
+
+.footerlogos {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-vr2 {
+  position: relative;
+  top: -18px;
+}
+.footerlogos {
+  color: rgb(136, 136, 136);
+}
+@media only screen and (max-width: 768px) {
+  .footerContainer{
+    padding-bottom: 20px;
+  }
+.footerpara{
+  font-size: 16px;
+  line-height: 30px;
+}
+}
